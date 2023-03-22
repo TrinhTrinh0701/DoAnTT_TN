@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Item } from "../../components";
+import { Item } from "../../components";
 import { getPostsLimit } from "../../store/actions/post";
 import { useDispatch, useSelector } from "react-redux";
 import { useSearchParams } from "react-router-dom";

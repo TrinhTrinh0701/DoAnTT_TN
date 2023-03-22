@@ -1,7 +1,6 @@
 import React, { memo } from "react";
 import anonAvatar from "../assets/anon-avatar.png";
 import icons from "../ultils/icons";
-import { Button } from "./";
 
 const { BsDot, BsTelephoneFill, SiZalo } = icons;
 

@@ -166,8 +166,8 @@ const DetailPost = () => {
       </div>
       <div className="w-[30%] flex flex-col gap-8">
         <BoxInfo userData={posts[0]?.user}></BoxInfo>
-        <RelatedPost></RelatedPost>
         <RelatedPost newPost></RelatedPost>
+        <RelatedPost></RelatedPost>
       </div>
     </div>
   );
